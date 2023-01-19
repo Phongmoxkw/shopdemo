@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+#footer {
+  
+    background-color: black;
+    height: 200px;
+    clear: both;
+}
+
+#menu {
+    margin-top: 10px;
+    width: 20%;
+    background-color: beige;
+    height: 1000px;
+    float: left;
+}
+
+#content {
+    margin-top: 10px;
+    width: 80%;
+    background-color: burlywood;
+    height: 99%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 10px;
+    
+}
+
+.noidung {
+    margin-left: 15px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: brown;
+    width: 370px;
+    height: 300px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#hien {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    left: 50px;
+    display: none;
+}
+
